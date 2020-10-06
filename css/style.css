@@ -1,0 +1,74 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background: #FFFFFF;
+}
+
+a {
+  color: rgba(0, 0, 0, .5);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #212529;
+  text-decoration: none;
+}
+
+.form-control:focus,
+.form-control:active {
+  border-color: #343A40;
+  box-shadow: 0 0 0 .1rem rgba(20.4, 22.7, 25.1, .25);
+}
+
+.successful-message-sending {
+  background: #C1DFC1;
+  margin: 10px 0 18px 0;
+  padding: 20px;
+}
+
+.failed-message-sending {
+  background: #FF8080;
+  margin: 10px 0 18px 0;
+  padding: 20px;
+}
+
+.img-upload-comments-rotating {
+  margin-left: 10px;
+  -webkit-animation: img-upload-comments-rotating 2s linear infinite;
+  -moz-animation: img-upload-comments-rotating 2s linear infinite;
+  -ms-animation: img-upload-comments-rotating 2s linear infinite;
+  -o-animation: img-upload-comments-rotating 2s linear infinite;
+  animation: img-upload-comments-rotating 2s linear infinite;
+}
+
+@-webkit-keyframes img-upload-comments-rotating
+
+{
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes img-upload-comments-rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
